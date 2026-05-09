@@ -45,6 +45,7 @@ img { max-width: 100%; display: block; }
 }
 
 .section { padding: 72px 0; }
+#about { padding-top: 32px; }
 .section-white { background: var(--nu-white); }
 .section-gray  { background: var(--nu-light-gray); }
 
@@ -117,6 +118,30 @@ img { max-width: 100%; display: block; }
   color: var(--nu-white);
   padding: 100px 24px 80px;
   text-align: center;
+}
+
+/* ----- Logo Bar ----- */
+.logo-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 16px 24px;
+  background: #ffffff;
+}
+
+.logo-bar-img {
+  height: 120px;
+  width: auto;
+  object-fit: contain;
+  border-radius: var(--radius);
+}
+
+.logo-bar-img--light {
+  background: #ffffff;
+  padding: 10px 18px;
+  border-radius: var(--radius);
 }
 
 .hero-content { max-width: 720px; margin: 0 auto; }
@@ -552,3 +577,4 @@ img { max-width: 100%; display: block; }
 
   .schedule-table tbody td:first-child { width: auto; white-space: normal; }
 }
+
