@@ -377,6 +377,31 @@ img { max-width: 100%; display: block; }
 .session-poster td:nth-child(2)  { border-left: 3px solid #c4a0e8; }
 .session-patient td:nth-child(2) { border-left: 3px solid #9b59c0; }
 
+.schedule-talks {
+  list-style: disc;
+  margin: 8px 0 0 20px;
+  padding: 0;
+  font-size: 0.92rem;
+  color: #333;
+  line-height: 1.5;
+}
+.schedule-talks li { margin: 4px 0; }
+.schedule-talks li strong { color: var(--nu-black); }
+
+.draft-badge {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
+  padding: 4px 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--nu-white);
+  background: var(--nu-red);
+  border-radius: var(--radius);
+  text-transform: uppercase;
+}
+
 /* ----- Speaker group heading ----- */
 .speaker-group-title {
   font-size: 1.2rem;
