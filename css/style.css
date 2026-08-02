@@ -388,6 +388,22 @@ img { max-width: 100%; display: block; }
 .schedule-talks li { margin: 4px 0; }
 .schedule-talks li strong { color: var(--nu-black); }
 
+.schedule-speaker {
+  color: var(--nu-red);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--nu-red);
+  transition: color 0.15s, border-color 0.15s;
+}
+.schedule-speaker:hover,
+.schedule-speaker:focus {
+  color: var(--nu-black);
+  border-bottom-color: var(--nu-black);
+}
+.schedule-speaker strong { color: inherit; }
+
+/* Offset scroll target so fixed nav does not cover the card */
+[id^="speaker-"] { scroll-margin-top: 90px; }
+
 .draft-badge {
   display: inline-block;
   vertical-align: middle;
