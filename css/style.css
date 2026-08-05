@@ -311,6 +311,17 @@ img { max-width: 100%; display: block; }
   margin-bottom: 18px;
 }
 
+.about-note {
+  margin-top: 32px !important;
+  padding: 12px 16px;
+  background: var(--nu-light-gray);
+  border-left: 3px solid var(--nu-red);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #444;
+}
+
 .about-highlights {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
